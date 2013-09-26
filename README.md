@@ -1,11 +1,11 @@
-#Hello World
+#Hello eorld
 
-'''
-if
-elif
-else
-fi
-'''
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 添加中文
 添加中文
 
