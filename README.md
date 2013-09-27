@@ -1,13 +1,17 @@
 #Hello eorld
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+'''shell
+if [ -x $i ];then
+do rm -rf $i
+done
+'''
 
-添加中文
-添加中文
 
-在加点东西
 
+[添加中文][tianjia](tianjia.md)
+
+>添加中文<deyu260@163.com>
+
+*在加点东西
+
+[tianjia]http://www.baidu.com
