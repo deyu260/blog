@@ -3,8 +3,7 @@
 '''!bash
 if [ -x $i ];then
 do rm -rf $i
-done
-'''
+done'''
 ***
 **这是文字粗体格式**
 *这是文字斜体格式*
