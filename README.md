@@ -3,9 +3,9 @@
 bash:
 
 
-if [ -x $i ];then
-do rm -rf $i
-done`
+    if [ -x $i ];then
+    do rm -rf $i
+    done`
 
 
 ***
