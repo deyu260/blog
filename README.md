@@ -1,13 +1,17 @@
-# Hello eorld
+# Hello World
 
-`!bash
+bash:
+
+
 if [ -x $i ];then
 do rm -rf $i
 done`
+
+
 ***
 **这是文字粗体格式**
 *这是文字斜体格式*
-~~在文字上添加删除线~~
+~~在文字上添加删除线~~  
 
 `<hello world>`
 
