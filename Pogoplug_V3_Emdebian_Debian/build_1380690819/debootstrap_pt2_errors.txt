@@ -1,0 +1,6 @@
+gpg: key B98321F9: "Squeeze Stable Release Key <debian-release@lists.debian.org>" not changed
+gpg: key 473041FA: "Debian Archive Automatic Signing Key (6.0/squeeze) <ftpmaster@debian.org>" not changed
+gpg: key 65FFB764: "Wheezy Stable Release Key <debian-release@lists.debian.org>" not changed
+gpg: key 46925553: "Debian Archive Automatic Signing Key (7.0/wheezy) <ftpmaster@debian.org>" not changed
+gpg: Total number processed: 4
+gpg:              unchanged: 4

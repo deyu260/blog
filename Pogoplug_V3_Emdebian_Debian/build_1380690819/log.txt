@@ -1,0 +1,78 @@
+Wed Oct  2 13:13:39 CST 2013:   Checking internet connectivity, which is mandatory for the next step.
+Wed Oct  2 13:13:41 CST 2013:   Pinging 'google.com' worked. Internet connectivity seems fine.
+Wed Oct  2 13:13:41 CST 2013:   Installing some packages, if needed.
+Wed Oct  2 13:13:41 CST 2013:   Package 'debian-archive-keyring' is already installed. Nothing to be done.
+Wed Oct  2 13:13:41 CST 2013:   Package 'emdebian-archive-keyring' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Package 'debootstrap' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Package 'binfmt-support' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Package 'qemu' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Package 'qemu-user-static' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Sufficient version of package 'qemu-user-static' found. Continueing...
+Wed Oct  2 13:13:42 CST 2013:   Package 'qemu-system' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Package 'qemu-kvm' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Package 'parted' is already installed. Nothing to be done.
+Wed Oct  2 13:13:42 CST 2013:   Function 'check_n_install_prerequisites' DONE.
+Wed Oct  2 13:13:42 CST 2013:   Creating the temporary image file for the debootstrap process.
+Wed Oct  2 13:13:53 CST 2013:   File '/home/root/pogoplug_v3_emdebian_build/build_1380690819/emdebian_rootfs_pogoplug_v3_classic_1380690819.img' successfully created with a size of 1024MB.
+Wed Oct  2 13:13:53 CST 2013:   Formatting the image file with the ext4 filesystem.
+Wed Oct  2 13:13:55 CST 2013:   ext4 filesystem successfully created on '/home/root/pogoplug_v3_emdebian_build/build_1380690819/emdebian_rootfs_pogoplug_v3_classic_1380690819.img'.
+Wed Oct  2 13:13:55 CST 2013:   Creating the directory to mount the temporary filesystem.
+Wed Oct  2 13:13:55 CST 2013:   Directory '/home/root/pogoplug_v3_emdebian_build/build_1380690819/mnt_debootstrap' successfully created.
+Wed Oct  2 13:13:55 CST 2013:   Now mounting the temporary filesystem.
+Wed Oct  2 13:13:55 CST 2013:   Filesystem correctly mounted on '/home/root/pogoplug_v3_emdebian_build/build_1380690819/mnt_debootstrap'.
+Wed Oct  2 13:13:55 CST 2013:   Function 'create_n_mount_temp_image_file' DONE.
+Wed Oct  2 13:13:55 CST 2013:   Checking internet connectivity, which is mandatory for the next step.
+Wed Oct  2 13:13:58 CST 2013:   Pinging 'google.com' worked. Internet connectivity seems fine.
+Wed Oct  2 13:13:58 CST 2013:   Running first stage of debootstrap now.
+Wed Oct  2 13:13:58 CST 2013:   No debian debootstrap tarball found in cache. Creating one now!
+Wed Oct  2 13:17:07 CST 2013:   Debootstrap's first stage ran successfully!
+Wed Oct  2 13:17:07 CST 2013:   Starting the second stage of debootstrap now.
+Wed Oct  2 13:17:07 CST 2013:   Mounting both /dev/pts and /proc on the temporary filesystem.
+Wed Oct  2 13:17:07 CST 2013:   Entering chroot environment NOW!
+Wed Oct  2 13:18:59 CST 2013:   First part of chroot operations done successfully!
+Wed Oct  2 13:18:59 CST 2013:   No compressed additional_packages archive found in cache directory.
+Creating it now!
+Wed Oct  2 13:18:59 CST 2013:   Mounting both /dev/pts and /proc on the temporary filesystem.
+Wed Oct  2 13:18:59 CST 2013:   Entering chroot environment NOW!
+Wed Oct  2 13:19:57 CST 2013:   Second part of chroot operations done successfully!
+Wed Oct  2 13:19:57 CST 2013:   Compressing additional packages, in order to save them in the cache directory.
+Wed Oct  2 13:20:03 CST 2013:   Successfully created compressed cache archive of additional packages.
+Wed Oct  2 13:20:08 CST 2013:   Virtual Image still mounted. Trying to umount now!
+Wed Oct  2 13:20:28 CST 2013:   Virtual image successfully unmounted.
+Wed Oct  2 13:20:28 CST 2013:   Just exited chroot environment.
+Wed Oct  2 13:20:28 CST 2013:   Base debootstrap steps 1&2 are DONE!
+Wed Oct  2 13:20:28 CST 2013:   Now starting the post-debootstrap configuration steps.
+Wed Oct  2 13:20:28 CST 2013:   Standard kernel package NOT found in cache. Getting it now and copying it to cache.
+Wed Oct  2 13:20:28 CST 2013:   Checking internet connectivity, which is mandatory for the next step.
+Wed Oct  2 13:20:30 CST 2013:   Pinging 'google.com' worked. Internet connectivity seems fine.
+Wed Oct  2 13:20:30 CST 2013:   Trying to download standard_kernel from address 'http://www.hs-augsburg.de/~ingmar_k/Pogoplug_V3/kernels/2.6.32-ppv3-pro-zram-1.0_ARMv6k.tar.bz2', now.
+Wed Oct  2 13:20:47 CST 2013:   'standard_kernel' successfully downloaded from address 'http://www.hs-augsburg.de/~ingmar_k/Pogoplug_V3/kernels/2.6.32-ppv3-pro-zram-1.0_ARMv6k.tar.bz2'.
+Wed Oct  2 13:20:47 CST 2013:   Qemu kernel package NOT found in cache. Getting it now and copying it to cache.
+Wed Oct  2 13:20:47 CST 2013:   Checking internet connectivity, which is mandatory for the next step.
+Wed Oct  2 13:20:49 CST 2013:   Pinging 'google.com' worked. Internet connectivity seems fine.
+Wed Oct  2 13:20:49 CST 2013:   Trying to download qemu_kernel from address 'http://www.hs-augsburg.de/~ingmar_k/Pogoplug_V3/kernels/2.6.32.61-ppv3-qemu-1.2.tar.bz2', now.
+Wed Oct  2 13:20:56 CST 2013:   'qemu_kernel' successfully downloaded from address 'http://www.hs-augsburg.de/~ingmar_k/Pogoplug_V3/kernels/2.6.32.61-ppv3-qemu-1.2.tar.bz2'.
+Wed Oct  2 13:20:59 CST 2013:   Could not find '/home/root/pogoplug_v3_emdebian_build/build_1380690819/mnt_debootstrap/lib/modules/gmac_copro_firmware'. So, not moving it.
+Wed Oct  2 13:21:00 CST 2013:   Extra file 'pogoplug_v3_arch_ledcontrol.tar.bz2' NOT found in cache. Getting it now and copying it to cache.
+Wed Oct  2 13:21:00 CST 2013:   Checking internet connectivity, which is mandatory for the next step.
+Wed Oct  2 13:21:02 CST 2013:   Pinging 'google.com' worked. Internet connectivity seems fine.
+Wed Oct  2 13:21:02 CST 2013:   Trying to download pogoplug_v3_arch_ledcontrol.tar.bz2 from address 'http://www.hs-augsburg.de/~ingmar_k/Pogoplug_V3/extra_files/pogoplug_v3_arch_ledcontrol.tar.bz2', now.
+Wed Oct  2 13:21:03 CST 2013:   'pogoplug_v3_arch_ledcontrol.tar.bz2' successfully downloaded from address 'http://www.hs-augsburg.de/~ingmar_k/Pogoplug_V3/extra_files/pogoplug_v3_arch_ledcontrol.tar.bz2'.
+Wed Oct  2 13:21:03 CST 2013:   Successfully extracted 'pogoplug_v3_arch_ledcontrol.tar.bz2' into the created rootfs.
+Wed Oct  2 13:21:03 CST 2013:   Virtual Image still mounted. Trying to umount now!
+Wed Oct  2 13:21:28 CST 2013:   Virtual image successfully unmounted.
+Wed Oct  2 13:21:28 CST 2013:   Filesystem image file successfully unmounted. Ready to continue.
+Wed Oct  2 13:21:33 CST 2013:   Starting the qemu environment now!
+Wed Oct  2 13:21:33 CST 2013:   Additional chroot system configuration successfully finished!
+Wed Oct  2 13:21:33 CST 2013:   Compressing the rootfs now!
+Wed Oct  2 13:21:33 CST 2013:   Temporary filesystem checked out, OK!
+Wed Oct  2 13:22:02 CST 2013:   Rootfs successfully DONE!
+Wed Oct  2 13:22:27 CST 2013:   USB drive device set to '/dev/sdb', according to user input.
+Wed Oct  2 13:22:54 CST 2013:   Now unpacking the rootfs to the USB-stick's root partition!
+Wed Oct  2 13:23:08 CST 2013:   Nearly done! Now trying to unmount the usb-stick.
+Wed Oct  2 13:23:25 CST 2013:   Now doing a final filesystem check.
+Wed Oct  2 13:23:26 CST 2013:   USB-Stick successfully created!
+You can remove the usb-stick now
+and try it with your pogoplug-V3.
+ALL DONE!
+Wed Oct  2 13:23:26 CST 2013:   Virtual image successfully unmounted.
